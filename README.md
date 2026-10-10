@@ -11,7 +11,7 @@ Langfuse records the execution. Evaluations judge the result. LiteLLM selects a 
 ## Learning path
 
 1. [Langfuse](01-langfuse/) — traces, debugging, prompts, scores and experiments.
-2. [LiteLLM](02-litellm/) — a common model interface, routing, fallbacks and a local proxy.
+2. [LiteLLM](02-litellm/) — a common model interface, routing and fallbacks.
 3. [Evaluations](03-evals/) — datasets, rules, LLM judges, human review and regressions.
 4. [LLMOps wrap-up](04-llmops/) — connect the lessons to running and improving your final product.
 

@@ -38,6 +38,5 @@ elif a.lesson == '03-evals':
     assert hasattr(OpenAI, '__init__')
 else:
     import litellm
-    import litellm.proxy.proxy_cli
     assert callable(litellm.completion)
 print('Dependency and API import checks passed; live API calls require your credentials.')

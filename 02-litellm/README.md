@@ -1,6 +1,6 @@
 # LiteLLM: route models and handle failures
 
-Call a model through one interface, configure primary and backup routes, simulate failures, start a local proxy, and verify proxy failover using deployment IDs.
+Call a model through one interface, configure primary and backup routes, simulate failures, and verify which deployment served each request.
 
 ## Folder contents
 
@@ -10,7 +10,7 @@ Call a model through one interface, configure primary and backup routes, simulat
 
 ## Before you begin
 
-Use Python 3.12. OpenAI API key with access to both configured models. The proxy needs no database for this lesson. Model calls use your account credits. No keys are included.
+Use Python 3.12. OpenAI API key with access to both configured models. Model calls use your account credits. No keys are included.
 
 From the repository root, run `python scripts/setup.py 02-litellm`, then open Jupyter with the command printed by setup. In VS Code select **Python (Week 4 litellm)**.
 
@@ -26,6 +26,6 @@ Verify the backup deployment serves each failure scenario. Explain why two model
 
 If imports fail, confirm the selected kernel belongs to this lesson, rerun setup, then restart the kernel. For authentication errors, check key names, account credit and model access.
 
-Run the final cleanup cell to stop the proxy and remove temporary configuration and logs. If interrupted, restart the kernel and stop any leftover demo proxy process. The proxy binds only to localhost.
+No server or temporary configuration is created. Close the notebook kernel when finished.
 
 Never commit `.env`, keys, or notebook outputs containing private data. Clear outputs before sharing.
