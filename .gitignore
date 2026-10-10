@@ -7,3 +7,6 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 *.log
+
+# Slide decks are distributed separately
+*.pdf

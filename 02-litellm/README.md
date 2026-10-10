@@ -5,7 +5,6 @@ Call a model through one interface, configure primary and backup routes, simulat
 ## Folder contents
 
 - `LiteLLM_101.ipynb`: guided notebook, run from top to bottom.
-- `LiteLLM 101.pdf`: accompanying lesson slides.
 - `requirements.txt`: pinned dependencies for this lesson.
 - `.env.example`: credential template; copy to private `.env`.
 

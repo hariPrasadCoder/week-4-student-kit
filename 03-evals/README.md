@@ -5,7 +5,6 @@ Build an eight-case dataset, generate baseline answers, combine deterministic ch
 ## Folder contents
 
 - `Evals_101.ipynb`: guided notebook, run from top to bottom.
-- `LLM Evals 101.pdf`: accompanying lesson slides.
 - `requirements.txt`: pinned dependencies for this lesson.
 - `.env.example`: credential template; copy to private `.env`.
 

@@ -1,6 +1,6 @@
 # Week 4: Make It Production-Ready
 
-This repository contains the beginner-friendly notebooks and slides used in Week 4. Observe what your application does, measure answer quality, and improve reliability before your final demo.
+This repository contains the beginner-friendly notebooks and lesson guides used in Week 4. Observe what your application does, measure answer quality, and improve reliability before your final demo.
 
 ## The big picture
 
@@ -15,7 +15,7 @@ Langfuse records the execution. Evaluations judge the result. LiteLLM selects a 
 3. [Evaluations](03-evals/) — datasets, rules, LLM judges, human review and regressions.
 4. [LLMOps wrap-up](04-llmops/) — connect the lessons to running and improving your final product.
 
-Each practical folder contains one notebook, its slides, a detailed guide, pinned requirements and an API-key template.
+Each practical folder contains one notebook, a detailed guide, pinned requirements and an API-key template.
 
 ## Easiest way to run
 
@@ -48,3 +48,7 @@ GitHub deployment Environments do not provide notebook runtimes: the runnable Gi
 - Submit the final live product, repository/README and a short evidence-based demo.
 
 These notebooks use fictional support policies and small datasets. Results vary and do not establish production readiness. See each lesson guide for cleanup and troubleshooting.
+
+## Slide decks
+
+PDF slide decks are distributed separately and excluded from this repository. Locally, they are kept in the sibling `Week 4 slides` folder.

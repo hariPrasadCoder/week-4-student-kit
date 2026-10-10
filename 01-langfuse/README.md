@@ -5,7 +5,6 @@ Record a support-bot trace, debug incorrect policy data, inspect latency and err
 ## Folder contents
 
 - `Langfuse_101.ipynb`: guided notebook, run from top to bottom.
-- `Langfuse 101 deck.pdf`: accompanying lesson slides.
 - `requirements.txt`: pinned dependencies for this lesson.
 - `.env.example`: credential template; copy to private `.env`.
 
