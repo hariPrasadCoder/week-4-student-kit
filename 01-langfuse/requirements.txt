@@ -1,0 +1,7 @@
+langfuse==4.17.0
+langgraph==1.2.14
+langchain==1.4.3
+langchain-openai==1.6.7
+python-dotenv==1.2.2
+jupyterlab==4.5.6
+ipykernel==7.2.0

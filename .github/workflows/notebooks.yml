@@ -1,0 +1,21 @@
+name: Validate notebook environments
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        lesson: [01-langfuse, 03-evals, 02-litellm]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: '${{ matrix.lesson }}/requirements.txt'
+      - run: python -m pip install -r '${{ matrix.lesson }}/requirements.txt'
+      - run: python -m pip check
+      - run: python scripts/verify.py '${{ matrix.lesson }}'
